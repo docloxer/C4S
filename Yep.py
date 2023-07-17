@@ -938,7 +938,7 @@ if __name__=='__main__':
   except:pass
   try:os.system("git pull")
   except:pass
-  try:Instagram()
+  try:C4S()
   except requests.exceptions.ConnectionError:
      print(f" {H}•{N} koneksi internet anda bermasalah")
      time.sleep(3);exit() 
