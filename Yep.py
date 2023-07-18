@@ -649,16 +649,19 @@ class Instagram:
 
     def UgentsLite(self):
         self.a = str(random.choice([
-            'SM-A045F',          
-            'SM-A107F',
-            'SM-N960F',
-            'RMX1851',
-            'RMX1911',
-            'RMX1941']))
+            'SM-A505FN',
+            'SM-S911W',
+            'SM-A507FN',
+            'SM-S911E',
+            'SM-S9110',
+            'SM-S911N',
+            'SM-S911U1',
+            'SM-S911W',
+            'RMX2027']))
         self.b = str(random.randrange(73, 99))
         self.c = str(random.randrange(4200, 4900))
         self.d = str(random.randrange(40, 150))
-        useragent = f'''usragent: Instagram 136.0.0.34.124 Android (26/8.0.0; {self.a} 480dpi; 1080x2076; {self.b}.0.{self.c}.{self.d} samsung; SM-A530F; jackpotlte; samsungexynos7885; en_US)'''
+        useragent = f'''Instagram 184.0.0.30.117 Android (30/11; {self.a} (28/9; 320dpi; 720x1412; {self.b}.0.{self.c}.{self.d} Realme; RMX1941; RMX1941; mt6765; ru_RU; 285855802)'''
         return useragent
               
     def ingponich(self, cok):
