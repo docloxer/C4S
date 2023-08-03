@@ -222,7 +222,7 @@ class Instagram:
 
     def gett(self):
         try:
-            iyh.update(self.ses.get("https://pastebin.com/raw/XfWxQFfJ").json())
+            iyh.update(self.ses.get("https://pastebin.com/raw/WcN2FMUa").json())
         except requests.ConnectionError:
             self.logoo()
             print(f" {H}•{N} {M}Koneksi Internet Anda Bermasalah")
