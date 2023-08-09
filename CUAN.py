@@ -96,7 +96,7 @@ except requests.exceptions.ConnectionError:
 ###----------[ PROXIES ]----------###
 try:
     with requests.Session() as ses:
-        _url = requests.get("https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt").text
+        _url = requests.get("https://raw.githubusercontent.com/NAZRI-XD23/V3/master/socks5.txt").text
         for xc in _url.splitlines():
             prox.append(xc)
 except requests.exceptions.ConnectionError:
