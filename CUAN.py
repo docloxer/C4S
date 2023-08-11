@@ -662,7 +662,7 @@ class Instagram:
         self.b = str(random.randrange(73, 99))
         self.c = str(random.randrange(4200, 4900))
         self.d = str(random.randrange(40, 150))
-        useragent = f'''Instagram 184.0.0.30.117 Android (30/11; {self.a} (28/9; 320dpi; 720x1412; {self.b}.0.{self.c}.{self.d} Realme; RMX1941; RMX1941; mt6765; ru_RU; 285855802)'''
+        useragent = f'''Instagram 136.0.0.34.124 Android (30/11; {self.a} (28/9; 320dpi; 720x1412; {self.b}.0.{self.c}.{self.d} Realme; RMX1941; RMX1941; mt6765; ru_RU; 285855802)'''
         return useragent
 
     def ingponich(self, cok):
