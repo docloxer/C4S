@@ -521,8 +521,8 @@ class Instagram:
  {P}├╴>{P} password  : {K}{pwd}{P}
  {P}├╴>{P} followers : {K}{fol}{P}
  {P}├╴>{P} following : {K}{ful}{P}
- {P}├╴>{P} User-Agent: {K}{ua}{P}
-					""");time.sleep(0.05)
+ {P}        User-Agent:  {ua}
+				     """);time.sleep(0.05)
                 else:
                     print(f"""
 {N}[{H}+{N}] {H}LIVE{N}
@@ -531,7 +531,7 @@ class Instagram:
  {N}├╴>{N} password  : {H}{pwd}{N}
  {N}├╴>{N} followers : {H}{fol}{N}
  {N}├╴>{N} following : {H}{ful}{N}
- {P}├╴>{P} User-Agent: {K}{ua}{P}
+ {P}        User-Agent:  {ua}
 					""");time.sleep(0.05)
     
     def SettingUgent(self):
