@@ -96,7 +96,7 @@ except requests.exceptions.ConnectionError:
 ###----------[ PROXIES ]----------###
 try:
     with requests.Session() as ses:
-        _url = requests.get("https://raw.githubusercontent.com/NAZRI-XD23/V3/master/socks5.txt").text
+        _url = requests.get("https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt").text
         for xc in _url.splitlines():
             prox.append(xc)
 except requests.exceptions.ConnectionError:
@@ -154,9 +154,9 @@ class Instagram:
         dpi = ['133','320','515','160','640','240','120','800','480','225','768','216','1024']
         i_version = ['114.0.0.20.2','114.0.0.38.120','114.0.0.20.70','114.0.0.28.120','114.0.0.0.24','114.0.0.0.41']
         pxl_phone = ['623x1280','700x1245','800x1280','1080x2340','1320x2400','1242x2688']
-        UserAgents1 = f"Instagram {str(rc(i_version))} Android (23/{str(rr(9,12))}; {str(rc(dpi))}dpi; {str(rc(pxl_phone))}; vivo; vivo Xplay5S; PD1516A; qcom; ru; 99640911)"
-        UserAgents2 = f"Mozilla/5.0 (Linux; Android {str(rr(9,12))}; RMX3063 Build/QP1A.{str(rr(111111,199999))}.020; in-id) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,99))}.0.{str(rr(3500,3999))}.{str(rr(75,150))} Mobile Safari/537.36 Puffin/9.7.2.{str(rr(51111,59999))}AP"
-        UserAgents3 = f"Mozilla/5.0 (Linux; U; Android {str(rr(9,12))}; en-US; CPH2223 Build/RKQ1.201217.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,99))}.0.{str(rr(3500,3999))}.{str(rr(75,150))} UCBrowser/{str(rr(7,13))}.4.0.{str(rr(1300,1999))} Mobile Safari/537.36"
+        UserAgents1 = f"Mozilla/5.0 (Linux; Android 11; RMX3231 Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,99))}.0.{str(rr(4500,4900))}.{str(rr(75,150))} Mobile Safari/537.36 Instagram {str(rr(260,290))}.0.0.{str(rr(20,99))}.{str(rr(320,390))} Android (30/11; 360dpi; 720x1437; realme; RMX3231; RMX3231; RMX3231; it_IT; {str(rr(422222222,499999999))})"
+        UserAgents2 = f"Mozilla/5.0 (Linux; Android {str(rr(9,12))}; SM-G960F Build/QP1A.{str(rr(111111,199999))}.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(75,150))}.0.{str(rr(5500,5900))}.{str(rr(73,99))} Mobile Safari/537.36 Instagram {str(rr(260,290))}.0.0.{str(rr(20,99))}.{str(rr(320,390))} Android (29/{str(rr(9,12))}; 540dpi; 1080x2058; samsung; SM-G960F; starlte; samsungexynos9810; it_IT; {str(rr(422222222,499999999))})"
+        UserAgents3 = f"Mozilla/5.0 (Linux; Android 11; Nokia 3.2 Build/RKQ1.{str(rr(211111,299999))}.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(75,150))}.0.{str(rr(5500,5900))}.{str(rr(73,140))} Mobile Safari/537.36 Instagram {str(rr(260,290))}.0.0.{str(rr(20,90))}.{str(rr(111,199))} Android (30/11; 320dpi; 720x1368; HMD Global/Nokia; Nokia 3.2; DPL_sprout; qcom; it_IT; {str(rr(411111111,499999999))})"
         ugent = str(rc([UserAgents1, UserAgents2, UserAgents3]))
     
     def logoo1(self):
