@@ -512,8 +512,7 @@ class Instagram:
                 usr=s.split("|")[0]
                 pwd=s.split("|")[1]
                 fol=s.split("|")[2]
-                ful=s.split("|")[3]
-		ua=s.split("|")[4]    
+                ful=s.split("|")[3]   
                 if xc=="CP":
                   print(f"""
 {P}[{K}+{P}] {K}CHECKPOINT{P}
