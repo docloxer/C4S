@@ -513,6 +513,7 @@ class Instagram:
                 pwd=s.split("|")[1]
                 fol=s.split("|")[2]
                 ful=s.split("|")[3]
+		ua=s.split("|")[4]    
                 if xc=="CP":
                   print(f"""
 {P}[{K}+{P}] {K}CHECKPOINT{P}
@@ -521,7 +522,7 @@ class Instagram:
  {P}├╴>{P} password  : {K}{pwd}{P}
  {P}├╴>{P} followers : {K}{fol}{P}
  {P}├╴>{P} following : {K}{ful}{P}
- {P}        User-Agent:  {ua}
+ {P}├╴>{P} User-Agent: {K}{ua}{P}
 				     """);time.sleep(0.05)
                 else:
                     print(f"""
@@ -531,7 +532,7 @@ class Instagram:
  {N}├╴>{N} password  : {H}{pwd}{N}
  {N}├╴>{N} followers : {H}{fol}{N}
  {N}├╴>{N} following : {H}{ful}{N}
- {P}        User-Agent:  {ua}
+ {P}├╴>{N} User-Agent: {H}{ua}{N}
 					""");time.sleep(0.05)
     
     def SettingUgent(self):
